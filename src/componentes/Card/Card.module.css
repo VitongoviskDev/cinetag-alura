@@ -1,0 +1,26 @@
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding-bottom: 1em;
+    width: 300px;
+
+    background-color: var(--clr-cinza);
+
+}
+.link{
+    text-decoration: none;
+    text-align: left;
+    color: var(--clr-preto);
+}
+.thumbnail{
+    width: 100%;
+}
+.title,
+.favorite{
+    padding: 0 1em;
+}
+.favorite{
+    width: 25px;
+}

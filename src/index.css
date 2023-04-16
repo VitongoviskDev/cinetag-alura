@@ -1,0 +1,17 @@
+:root{
+  --clr-branco: #fff;
+  --clr-preto: #000;
+  --clr-cinza: #E2E2E2;
+
+  --ff-principal: 'Montserrat', sans-serif
+}
+
+body {
+  margin: 0;
+  
+  font-family: var(--ff-principal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: var(--clr-branco);
+}
