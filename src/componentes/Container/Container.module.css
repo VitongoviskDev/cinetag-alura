@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-@media screen and (min-width: 400px){
+@media screen and (max-width: 400px){
     .container section{
         margin: 2em auto;
     }
